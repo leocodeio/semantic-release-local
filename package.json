@@ -11,7 +11,8 @@
     "typecheck": "rm -rf dist && tsc",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "release": "semantic-release",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "zip-dist": "zip -r dist.zip dist"
   },
   "keywords": [],
   "author": "",
