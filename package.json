@@ -12,7 +12,8 @@
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "release": "semantic-release",
     "commit": "git-cz",
-    "zip-dist": "zip -r dist.zip dist"
+    "zip-dist": "zip -r dist.zip dist",
+    "unzip-dist": "unzip dist.zip"
   },
   "keywords": [],
   "author": "",
