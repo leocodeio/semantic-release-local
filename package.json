@@ -1,5 +1,5 @@
 {
-  "name": "commit-semantic-release-template",
+  "name": "@leocodeio/commit-semantic-release-template",
   "version": "1.0.0",
   "type": "module",
   "description": "",
@@ -41,5 +41,12 @@
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocodeio/commit-semantic-release-template.git"
   }
 }
