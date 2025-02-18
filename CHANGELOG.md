@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/leocodeio/commit-semantic-release-template/compare/v1.0.0...v1.1.0) (2025-02-18)
+
+
+### Features
+
+* **test versioning working:** test versioning working ([c45fcd0](https://github.com/leocodeio/commit-semantic-release-template/commit/c45fcd0c13025e641fb240e3971972956ac8ef7a))
+
 # 1.0.0 (2025-02-18)
 
 
