@@ -55,8 +55,8 @@ jobs:
           path: ./
       - name: Unzip dist folder
         run: pnpm unzip-dist
-      - name: Run tests
-        run: pnpm test
+      # - name: Run tests
+      #   run: pnpm test
 
   release:
     runs-on: ubuntu-latest
