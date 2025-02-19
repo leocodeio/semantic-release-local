@@ -1,5 +1,5 @@
 {
-  "name": "@leocodeio/commit-semantic-release-template",
+  "name": "@leocodeio/semantic-release-local",
   "version": "1.0.0",
   "type": "module",
   "description": "",
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leocodeio/commit-semantic-release-template.git"
+    "url": "git+https://github.com/leocodeio/semantic-release-local.git"
   }
 }
