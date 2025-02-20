@@ -1,9 +1,21 @@
 {
-  "branches": ["main"],
+  "branches": [
+    "main",
+    {
+      "name": "dev",
+      "prerelease": "dev"
+    }
+  ],
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
     [
       "@semantic-release/git",
       {
@@ -11,5 +23,7 @@
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
-  ]
+  ],
+  "ci": false,
+  "dryRun": false
 }

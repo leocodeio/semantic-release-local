@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm run release
+# lint 
+pnpm run lint
+
+# typecheck
+pnpm run typecheck
